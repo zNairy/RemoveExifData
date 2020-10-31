@@ -59,5 +59,5 @@ class Exif(object):
 
 
 if __name__ == '__main__':
-    arquivos = Exif('/media/znairy/BACKUP/Backup/minhas fotos/2019/')
+    arquivos = Exif('your path of photos')
     arquivos.RemoveMetaData()
